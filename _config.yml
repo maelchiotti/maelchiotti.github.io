@@ -1,6 +1,6 @@
-title: Maël Chiotti
+title: "Maël Chiotti"
 author:
-  name: Maël Chiotti
+  name: "Maël Chiotti"
   email: "mael.chiotti@rvandco.fr"
 
 description: >
@@ -8,7 +8,7 @@ description: >
 
 theme: minima
 minima:
-  skin: auto
+  skin: dark
   social_links:
     - { platform: github, user_url: "https://github.com/maelchiotti" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/maelchiotti/" }
