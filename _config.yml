@@ -1,17 +1,20 @@
 title: "Maël Chiotti"
 
-name: "Maël Chiotti"
-email: "mael.chiotti@rvandco.fr"
-
 description: >
   Welcome to my personal website!
 
+author:
+  name: "Maël Chiotti"
+  email: "mael.chiotti@rvandco.fr"
+
 theme: minima
 minima:
-  skin: dark
+  skin: auto
   social_links:
     - { platform: github, user_url: "https://github.com/maelchiotti" }
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/maelchiotti/" }
+    - { platform: facebook, user_url: "https://www.facebook.com/mael.chiotti" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@studiorvandco" }
 
 header_pages:
   - about.md
