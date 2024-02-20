@@ -1,8 +1,7 @@
 <script lang="ts">
 	import '@fontsource-variable/montserrat';
 
-	import { Footer, SvelteUIProvider } from '@svelteuidev/core';
-	import { AppShell, Header } from '@svelteuidev/core';
+	import { AppShell, Footer, Header, SvelteUIProvider } from '@svelteuidev/core';
 
 	import HeaderContent from './app_shell/HeaderContent.svelte';
 	import FooterContent from './app_shell/FooterContent.svelte';
