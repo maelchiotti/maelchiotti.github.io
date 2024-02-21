@@ -1,30 +1,20 @@
 <script lang="ts">
-	import '@fontsource-variable/montserrat';
+	import '../app.postcss';
+	import '../app.css';
 
-	import { AppShell, Footer, Header, SvelteUIProvider } from '@svelteuidev/core';
-
-	import HeaderContent from './app_shell/HeaderContent.svelte';
-	import FooterContent from './app_shell/FooterContent.svelte';
-
-	let darkTheme = true;
+	import { AppShell } from '@skeletonlabs/skeleton';
+	import Header from './app_shell/header.svelte';
+	import Footer from './app_shell/footer.svelte';
 </script>
 
-<style>
-    :global(body) {
-        font-family: "Montserrat Variable", sans-serif;
-    }
-</style>
+<AppShell>
+	<svelte:fragment slot="pageHeader">
+		<Header></Header>
+	</svelte:fragment>
 
-<SvelteUIProvider withNormalizeCSS withGlobalStyles themeObserver={darkTheme ? 'dark' : 'light'}>
-	<AppShell fixed>
-		<Header fixed slot="header" height="100">
-			<HeaderContent on:toggleTheme={()=>darkTheme=!darkTheme} />
-		</Header>
+	<slot />
 
-		<slot />
-
-		<Footer slot="footer" height="100">
-			<FooterContent />
-		</Footer>
-	</AppShell>
-</SvelteUIProvider>
+	<svelte:fragment slot="pageFooter">
+		<Footer></Footer>
+	</svelte:fragment>
+</AppShell>
