@@ -1,7 +1,7 @@
 <script>
 	import Hello from './content/hello.svelte';
-	import About from './content/about.svelte';
+	import Education from './content/education.svelte';
 </script>
 
 <Hello></Hello>
-<About></About>
+<Education></Education>

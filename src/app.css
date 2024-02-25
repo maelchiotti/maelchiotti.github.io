@@ -24,3 +24,26 @@
         transform: translateY(10px);
     }
 }
+
+.flexbox-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.flexbox-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.flexbox-center {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.size-33-percents {
+    width: 33%;
+    min-width: 384px;
+}

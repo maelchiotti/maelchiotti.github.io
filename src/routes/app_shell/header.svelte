@@ -14,9 +14,7 @@
 		<a
 			href="/"
 			rel="noreferrer">
-			<Avatar
-				src="/assets/avatar.png"
-				width="w-16" rounded="rounded-full" />
+			<Avatar src="/assets/avatar.png" width="w-16" rounded="rounded-full" />
 		</a>
 	</svelte:fragment>
 
