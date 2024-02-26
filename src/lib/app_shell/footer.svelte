@@ -18,25 +18,25 @@
 			 href="/assets/cv_fr.pdf"
 			 target="_blank"
 			 rel="noreferrer">
-			<DocumentText class="icon" style="width:24px;" />
+			<DocumentText style="width: 24px;" />
 		</a>
 		<a class="btn-icon variant-soft"
 			 href="mailto:contact@maelchiotti.dev"
 			 target="_blank"
 			 rel="noreferrer">
-			<AtSymbol class="icon" style="width:24px;" />
+			<AtSymbol style="width: 24px;" />
 		</a>
 		<a class="btn-icon variant-soft"
 			 href="https://github.com/maelchiotti"
 			 target="_blank"
 			 rel="noreferrer">
-			<Github class="icon" style="width:24px;" />
+			<Github style="width: 24px;" />
 		</a>
 		<a class="btn-icon variant-soft"
 			 href="https://www.linkedin.com/in/maelchiotti/"
 			 target="_blank"
 			 rel="noreferrer">
-			<Linkedin class="icon" style="width:24px;" />
+			<Linkedin style="width: 24px;" />
 		</a>
 	</svelte:fragment>
 </AppBar>

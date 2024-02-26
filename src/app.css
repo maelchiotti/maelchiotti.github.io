@@ -3,6 +3,10 @@
     --theme-font-family-heading: 'Montserrat', sans-serif;
 }
 
+:global(html) {
+    scroll-behavior: smooth;
+}
+
 .jet-brains-mono {
     font-family: "JetBrains Mono", monospace;
 }
@@ -25,25 +29,22 @@
     }
 }
 
-.flexbox-column {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.flexbox-row {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-
-.flexbox-center {
+.flex-center {
     justify-content: center;
     align-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.size-33-percents {
-    width: 33%;
-    min-width: 384px;
+.flex-evenly {
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-gradient {
+    @apply bg-gradient-to-br;
+    @apply bg-clip-text;
+    @apply text-transparent;
 }

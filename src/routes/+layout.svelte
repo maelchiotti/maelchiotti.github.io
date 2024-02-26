@@ -3,8 +3,8 @@
 	import '../app.css';
 
 	import { AppShell } from '@skeletonlabs/skeleton';
-	import Header from './app_shell/header.svelte';
-	import Footer from './app_shell/footer.svelte';
+	import Header from '$lib/app_shell/header.svelte';
+	import Footer from '$lib/app_shell/footer.svelte';
 </script>
 
 <AppShell>
