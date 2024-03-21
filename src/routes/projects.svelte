@@ -1,5 +1,5 @@
 <script>
-	import { DevicePhoneMobile, CodeBracket, ComputerDesktop } from '@inqling/svelte-icons/heroicon-16-solid';
+	import { CodeBracket, ComputerDesktop, DevicePhoneMobile } from '@inqling/svelte-icons/heroicon-16-solid';
 	import { Opensourceinitiative } from '@inqling/svelte-icons/simple-icons';
 
 	import InfoLayout from '$lib/components/info_layout.svelte';
@@ -46,10 +46,10 @@
 			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
 				<IconButton
 					label="Play Store"
-					url="https://play.google.com/store/apps/details?id=com.maelchiotti.localmaterialnotes" />
+					url="https://play.google.com/store/apps/details?id=com.maelchiotti.localmaterialnotes/" />
 				<IconButton
 					label="GitHub"
-					url="https://github.com/maelchiotti/LocalMaterialNotes" />
+					url="https://github.com/maelchiotti/LocalMaterialNotes/" />
 			</div>
 		</InfoLayout>
 
@@ -94,14 +94,11 @@
 			</div>
 			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
 				<IconButton
-					label="Site web"
-					url="https://cpm.rvandco.fr/" />
-				<IconButton
 					label="GitHub"
-					url="https://github.com/studiorvandco/cpm_app" />
+					url="https://github.com/studiorvandco/cpm_app/" />
 				<IconButton
 					label="Studio Rv & Co"
-					url="https://rvandco.fr/" />
+					url="https://linktr.ee/studiorvandco" />
 			</div>
 		</InfoLayout>
 	</div>

@@ -1,11 +1,6 @@
 <script>
 	import { AppBar, Avatar } from '@skeletonlabs/skeleton';
-	import {
-		InformationCircle,
-		AcademicCap,
-		Briefcase,
-		CodeBracket
-	} from '@inqling/svelte-icons/heroicon-24-outline';
+	import { AcademicCap, Briefcase, CodeBracket } from '@inqling/svelte-icons/heroicon-24-outline';
 </script>
 
 <AppBar>
@@ -21,12 +16,6 @@
 
 	<svelte:fragment slot="trail">
 		<div class="flex flex-row flex-wrap gap-4">
-			<a class="btn btn-md variant-soft"
-				 href="#about"
-				 rel="noreferrer">
-				<span><InformationCircle style="width: 24px;" /></span>
-				<span>À propos</span>
-			</a>
 			<a class="btn btn-md variant-soft"
 				 href="#education"
 				 rel="noreferrer">
