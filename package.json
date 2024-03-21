@@ -1,36 +1,46 @@
 {
-  "name": "maelchiotti",
-  "version": "0.0.0",
+  "name": "portfolio",
+  "version": "1.0.0+1",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "dev": "vite dev",
+    "build": "vite build",
     "preview": "vite preview",
-    "build-only": "vite build",
-    "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
-  },
-  "dependencies": {
-    "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.3.3",
-    "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.19.3",
-    "@vitejs/plugin-vue": "^4.5.2",
-    "@vue/eslint-config-prettier": "^8.0.0",
-    "@vue/eslint-config-typescript": "^12.0.0",
-    "@vue/tsconfig": "^0.5.0",
-    "eslint": "^8.49.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "gh-pages": "^6.1.0",
-    "npm-run-all2": "^6.1.1",
-    "prettier": "^3.0.3",
-    "typescript": "~5.3.0",
-    "vite": "^5.0.10",
-    "vue-tsc": "^1.8.25"
+    "@skeletonlabs/skeleton": "2.8.0",
+    "@skeletonlabs/tw-plugin": "0.3.1",
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "@types/eslint": "8.56.0",
+    "@types/node": "20.11.19",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.35.1",
+    "postcss": "8.4.35",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.7",
+    "svelte-check": "^3.6.0",
+    "tailwindcss": "3.4.1",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.3",
+    "vite-plugin-tailwind-purgecss": "0.2.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@inqling/svelte-icons": "^4.1.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.13.0"
   }
 }
