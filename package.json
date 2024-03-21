@@ -39,5 +39,8 @@
   "type": "module",
   "dependencies": {
     "@inqling/svelte-icons": "^4.1.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.13.0"
   }
 }
