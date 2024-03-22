@@ -5,15 +5,9 @@
 	import Projects from './projects.svelte';
 </script>
 
-<div class="flex flex-col flex-center gap-16 p-32-bottom">
+<div class="flex flex-col flex-center gap-16 pb-32">
 	<About />
 	<Education />
 	<Experiences />
 	<Projects />
 </div>
-
-<style>
-    .p-32-bottom {
-        padding-bottom: 128px;
-    }
-</style>
