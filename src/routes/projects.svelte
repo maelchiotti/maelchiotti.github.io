@@ -18,7 +18,7 @@
 	<div slot="content" class="flex flex-col gap-8">
 		<InfoLayout
 			title="Material Notes">
-			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Android">
 					<DevicePhoneMobile style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -26,7 +26,7 @@
 					<Opensourceinitiative style="width: 20px;" slot="icon" />
 				</IconLabel>
 			</div>
-			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Flutter" variant="variant-soft-primary">
 					<CodeBracket style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -43,7 +43,7 @@
 			<div slot="content">
 				<Description items={["Application Android de prise de notes réalisée avec Flutter"]} />
 			</div>
-			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4-4">
 				<IconButton
 					label="Play Store"
 					url="https://play.google.com/store/apps/details?id=com.maelchiotti.localmaterialnotes/" />
@@ -57,7 +57,7 @@
 
 		<InfoLayout
 			title="Cinema Project Manager">
-			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Android, Windows, web">
 					<DevicePhoneMobile style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -65,7 +65,7 @@
 					<Opensourceinitiative style="width: 20px;" slot="icon" />
 				</IconLabel>
 			</div>
-			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4-4">
 				<IconLabel label="Flutter" variant="variant-soft-primary">
 					<CodeBracket style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -92,7 +92,7 @@
 				<Description
 					items={["Application multiplateformes de gestion de projet cinématographique réalisée avec Flutter et Supabase"]} />
 			</div>
-			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconButton
 					label="GitHub"
 					url="https://github.com/studiorvandco/cpm_app/" />

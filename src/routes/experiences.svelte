@@ -1,5 +1,5 @@
 <script>
-	import { MapPin, Calendar, Clock, ComputerDesktop, CodeBracket } from '@inqling/svelte-icons/heroicon-16-solid';
+	import { Calendar, Clock, CodeBracket, ComputerDesktop, MapPin } from '@inqling/svelte-icons/heroicon-16-solid';
 
 	import InfoLayout from '$lib/components/info_layout.svelte';
 	import SectionCard from '$lib/components/cards/section_card.svelte';
@@ -17,7 +17,7 @@
 	<div slot="content" class="flex flex-col gap-8">
 		<InfoLayout
 			title="Développement mobile full-stack">
-			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Qim info">
 					<MapPin style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -28,7 +28,7 @@
 					<Clock style="width: 20px;" slot="icon" />
 				</IconLabel>
 			</div>
-			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Flutter" variant="variant-soft-primary">
 					<CodeBracket style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -54,7 +54,7 @@
 					"Développement en .NET d'une API permettant à l'application d'interagir avec les différents services de l'entreprise",
 					"Mise en application du framework agile Scrum"]} />
 			</div>
-			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconButton label="Qim info" url="https://www.qiminfo.ch/" />
 			</div>
 		</InfoLayout>
@@ -63,7 +63,7 @@
 
 		<InfoLayout
 			title="Développement logiciel front-end">
-			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="LERTI">
 					<MapPin style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -74,7 +74,7 @@
 					<Clock style="width: 20px;" slot="icon" />
 				</IconLabel>
 			</div>
-			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="Python" variant="variant-soft-primary">
 					<CodeBracket style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -88,7 +88,7 @@
 					"Conception d'interfaces utilisateur avec Qt",
 					"Support logiciel et suivi de l'expérience utilisateur"]} />
 			</div>
-			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconButton label="LERTI" url="https://www.lerti.fr/" />
 			</div>
 		</InfoLayout>
@@ -97,7 +97,7 @@
 
 		<InfoLayout
 			title="Développement et traitement de données">
-			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="badges" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="INRAE">
 					<MapPin style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -108,7 +108,7 @@
 					<Clock style="width: 20px;" slot="icon" />
 				</IconLabel>
 			</div>
-			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="skills" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconLabel label="C" variant="variant-soft-primary">
 					<CodeBracket style="width: 20px;" slot="icon" />
 				</IconLabel>
@@ -125,7 +125,7 @@
 					"Développement d’algorithmes en Scala pour Apache Spark",
 					"Étude de solutions pour l'exécution de code en C dans Spark"]} />
 			</div>
-			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-4">
+			<div slot="footer" class="flex flex-row flex-wrap flex-center gap-x-2 gap-y-2 md:gap-x-4">
 				<IconButton label="INRAE" url="https://www.inrae.fr/" />
 				<IconButton label="LIPME" url="https://www.lipme.fr/" />
 			</div>
