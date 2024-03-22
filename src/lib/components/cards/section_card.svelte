@@ -11,8 +11,7 @@
 
 <style>
     .card-size {
-        width: 50%;
-        min-width: 512px;
+        width: 90%;
         max-width: 1024px;
     }
 </style>
