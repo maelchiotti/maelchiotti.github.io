@@ -6,7 +6,7 @@
 	<header>
 		<h3 class="h3">{title}</h3>
 	</header>
-	<section class="p-4">
+	<section class="pb-4 pt-4">
 		<div class="flex flex-col flex-wrap flex-center gap-4">
 			<slot name="badges" />
 			<slot name="skills" />
